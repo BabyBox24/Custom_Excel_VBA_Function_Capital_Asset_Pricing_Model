@@ -1,0 +1,5 @@
+Function CAPM(RiskFreeRate As Double, Beta As Double, MarketReturn As Double) As Double
+    ' Calculating expected return for CAPM formula
+    
+    CAPM = RiskFreeRate + Beta * (MarketReturn - RiskFreeRate)
+End Function
